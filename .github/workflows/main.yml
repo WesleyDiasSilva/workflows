@@ -24,3 +24,9 @@ jobs:
           variavel = "Hellow World"
           print(variavel)
         shell: python
+  terceiro-job:
+    name: "Instalação ambiente node.js"
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Verificação da versão do node.js"
+        run: node --version
